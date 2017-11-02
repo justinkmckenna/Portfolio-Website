@@ -1,0 +1,43 @@
+body {
+    background: cornsilk;
+}
+
+#container {
+}
+
+#content {
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    top: 1000px;
+}
+#about_me_pic {
+    width: 185px;
+}
+
+#header_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#name_img {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+#welcome_img {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background: lightgrey;
+    border: 5px ridge white;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
