@@ -1,5 +1,13 @@
+p {
+    font-family: sans-serif;
+}
+
 body {
     background: cornsilk;
+}
+
+h4 {
+    font-size: 120%;
 }
 
 #container {
@@ -39,5 +47,5 @@ body {
 
 .heading {
     text-align: center;
-    text-decoration: underline;
+    font-size: 200%
 }
