@@ -21,8 +21,12 @@ h4 {
 #about_me_pic {
     width: 25%;
 }
+#container {
+    width: 100%;
+    overflow: hidden;
+}
 
-#header_img {
+#container img {
     width: 100%;
 }
 
