@@ -4,19 +4,18 @@ p {
 
 body {
     background: cornsilk;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 h4 {
     font-size: 120%;
 }
 
-#container {
-}
-
 #content {
-    padding: 10px;
     width: 50%;
-    position: relative;
+    margin-left: 1%;
 }
 
 #about_me_pic {
@@ -24,21 +23,21 @@ h4 {
 }
 
 #header_img {
-    height: 100%;
     width: 100%;
-    position: relative;
 }
 
 #name_img {
     position: absolute;
-    top: 40%;
-    left: 25%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #welcome_img {
     position: absolute;
     top: 60%;
-    left: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: lightgrey;
     border: 5px ridge white;
 }
