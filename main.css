@@ -1,5 +1,6 @@
 p {
     font-family: sans-serif;
+    line-height: 2;
 }
 
 body {
@@ -37,13 +38,18 @@ h4 {
     transform: translate(-50%, -50%);
 }
 
-#welcome_img {
+#welcome {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: lightgrey;
+    background: #6fcbf3;
     border: 5px ridge white;
+    -webkit-transition: all 0.5s ease;
+}
+
+#welcome:hover {
+    background: #fff;
 }
 
 .heading {
