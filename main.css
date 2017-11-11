@@ -60,7 +60,7 @@ h4 {
 @media only screen and (min-width:240px) and (max-width: 720px), screen and (-webkit-min-device-pixel-ratio : 1.5 ) and (max-device-width:800px) {
     
     #name_img {
-        top: 25%;
+        top: 18%;
         width: 90%;
     }
     
