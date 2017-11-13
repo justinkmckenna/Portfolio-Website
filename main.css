@@ -94,5 +94,11 @@ h4 {
     
     #welcome {
         top: 30%;
+        width: 80%;
+    }
+
+    #me {
+        padding-top: 4%;
+        padding-bottom: 15%;
     }
 }
