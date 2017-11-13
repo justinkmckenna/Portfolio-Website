@@ -14,24 +14,12 @@ h4 {
     font-size: 120%;
 }
 
-#content {
-    width: 50%;
-    margin-left: 1%;
-}
-
-#about_me_pic {
-    width: 25%;
-}
-#container {
-    width: 100%;
-    overflow: hidden;
-}
-
 #container img {
     width: 100%;
+    padding-bottom: 1%;
 }
 
-#name_img {
+#name {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -50,6 +38,46 @@ h4 {
 
 #welcome:hover {
     background: #fff;
+}
+
+#content {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#about_me {
+    width: 50%;
+    float: left;
+    padding-bottom: 30%;
+}
+
+#me {
+    width: 35%;
+    float: right;
+    padding-bottom: 5%;
+}
+
+#education {
+    float: right;
+    width: 50%;
+    padding-bottom: 25%;
+}
+
+#kent_state {
+    width: 45%;
+    padding-bottom: 5%;
+    float: left;
+}
+
+#projects {
+    float: left;
+    width: 50%;
+}
+
+#computer {
+    width: 45%;
+    float: right;
+    padding-bottom: 1%;
 }
 
 .heading {
