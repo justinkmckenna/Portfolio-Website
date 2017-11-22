@@ -3,26 +3,22 @@ p {
     line-height: 2;
 }
 
-body {
+html, body {
     background: cornsilk;
+    margin: 0px;
+    padding: 0px;
     height: 100%;
-    padding: 0;
-    margin: 0;
+    background-image: url(Images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 h4 {
     font-size: 120%;
 }
 
-#container {
-    height: 1000px;
-    padding-bottom: 1%;
-}
-
-#container img {
-    width: 100%;
-    height: 1000px;
-    object-fit: cover;
+#header {
+    height: 100%;
 }
 
 #name {
@@ -47,43 +43,34 @@ h4 {
 }
 
 #content {
-    margin-right: 1%;
-    margin-left: 1%;
+    margin: 1;
 }
 
 #about_me {
-    width: 50%;
-    float: left;
-    padding-bottom: 30%;
-}
-
-#me {
-    width: 35%;
-    float: right;
+    width: 100%;
     padding-bottom: 5%;
 }
 
+#me {
+    width: 45%;
+}
+
 #education {
-    float: right;
-    width: 50%;
-    padding-bottom: 25%;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 #kent_state {
     width: 45%;
-    padding-bottom: 5%;
-    float: left;
 }
 
 #projects {
-    float: left;
-    width: 50%;
+    width: 100%;
+    padding-bottom: 1%;
 }
 
 #computer {
     width: 45%;
-    float: right;
-    padding-bottom: 1%;
 }
 
 .heading {
@@ -92,14 +79,8 @@ h4 {
 }
 
 @media only screen and (min-width:240px) and (max-width: 720px), screen and (-webkit-min-device-pixel-ratio : 1.5 ) and (max-device-width:800px) {
+   
     
-    #container {
-        height: 550px;
-    }
-    
-    #container img {
-        height: 100%;
-    }
     
     #name {
         width: 100%;
@@ -111,10 +92,5 @@ h4 {
     
     #welcome img {
         width: 100%;
-    }
-
-    #me {
-        padding-top: 4%;
-        padding-bottom: 15%;
     }
 }
