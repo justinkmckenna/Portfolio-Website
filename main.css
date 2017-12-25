@@ -44,6 +44,8 @@ h4 {
 
 #content {
     margin: 1;
+    padding-left: 2%;
+    padding-top: 3%;
 }
 
 #about_me {
@@ -52,7 +54,8 @@ h4 {
 }
 
 #me {
-    width: 45%;
+    width: 35%;
+    padding-bottom: 5%;
 }
 
 #education {
@@ -61,7 +64,8 @@ h4 {
 }
 
 #kent_state {
-    width: 45%;
+    width: 40%;
+    padding-bottom: 5%;
 }
 
 #projects {
@@ -70,7 +74,7 @@ h4 {
 }
 
 #computer {
-    width: 45%;
+    width: 40%;
 }
 
 .heading {
