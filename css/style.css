@@ -113,7 +113,7 @@ a {
     width: 35%;
 }
 
-#last_picture {
+#computer_picture {
     display: block;
     width: 40%;
     padding-bottom: 1%;
@@ -124,15 +124,17 @@ a {
 /*Mobile*/
 
 @media only screen and (min-width:240px) and (max-width: 720px), screen and (-webkit-min-device-pixel-ratio : 1.5 ) and (max-device-width:800px) {
-   
-    
-    
-    #my_name {
-        width: 100%;
+    h4{
+        margin-top: 7%;
     }
-    
-    #welcome {  
-        width: 25%;
+    .picture{
+        width: 75%;
+    }
+    #me_picture{
+        width: 75%;
+    }
+    #computer_picture{
+        width: 75%;
     }
 }
 
