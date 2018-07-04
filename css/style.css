@@ -43,10 +43,14 @@ h1 {
   line-height: 1;
 }
 
+h3 {
+    padding-top: 3%;
+}
+
 h4 {
     font-size: 150%;
     text-align: center;
-    margin-top: 3%;
+    padding-top: 3%;
 }
 
 p {
@@ -67,14 +71,6 @@ a {
 
 .section {
     padding-bottom: 2%;
-}
-
-.picture {
-    display: block;
-    width: 40%;
-    padding-bottom: 4%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*IDs*/
@@ -113,12 +109,13 @@ a {
     width: 35%;
 }
 
-#computer_picture {
-    display: block;
+#kent_state_picture {
     width: 40%;
-    padding-bottom: 1%;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+#computer_picture {
+    padding-top: 1%;
+    width: 40%;
 }
 
 /*Mobile*/
