@@ -137,7 +137,7 @@ a {
 
 /* Main Content */
 .cd-main-content {
-  position: relative;
+  position: absolute;
   z-index: 1;
   width: 100%;
   height: 100vh;
@@ -168,7 +168,6 @@ a {
 .cd-modal .modal-content {
   height: 100%;
   overflow-y: auto;
-  padding: 3em 5%;
 }
 .cd-modal h1, .cd-modal h2 {
   text-align: center;
@@ -304,6 +303,7 @@ Glitch Effect
 .glitch-transition {
   font-family: "Work Sans", sans-serif;
   color: #ffffff;
+  margin: 0;
 }
 .glitch-transition h1, .glitch-transition h2 {
   margin-bottom: .4em;
