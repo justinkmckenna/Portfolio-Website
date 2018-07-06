@@ -124,13 +124,14 @@ a {
     h4{
         margin-top: 7%;
     }
-    .picture{
-        width: 75%;
-    }
     #me_picture{
         width: 75%;
     }
     #computer_picture{
+        width: 75%;
+        padding-bottom: 3%;
+    }
+    #kent_state_picture{
         width: 75%;
     }
 }
