@@ -39,6 +39,10 @@ Shared style
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+.cd-btn:active {
+    transform: translateY(5%);
+}
+
 h1 {
   line-height: 1;
 }
@@ -67,10 +71,6 @@ a {
 .heading {
     text-align: center;
     font-size: 200%
-}
-
-.section {
-    padding-bottom: 2%;
 }
 
 /*IDs*/
@@ -105,15 +105,11 @@ a {
     padding-top: 3%;
 }
 
-#me_picture {
+#me {
     width: 35%;
 }
 
-#kent_state_picture {
-    width: 40%;
-}
-
-#computer_picture {
+#computer {
     padding-top: 1%;
     width: 40%;
 }
@@ -124,15 +120,41 @@ a {
     h4{
         margin-top: 7%;
     }
-    #me_picture{
+    #me{
         width: 75%;
     }
-    #computer_picture{
+    #computer{
         width: 75%;
         padding-bottom: 3%;
     }
     #kent_state_picture{
         width: 75%;
+    }
+}
+
+/*Desktop*/
+
+@media only screen and (min-width: 1100px) {
+  .cd-modal .modal-content {
+    padding: 6em 5%;
+    
+  }
+  .cd-modal .modal-close {
+    height: 60px;
+    width: 60px;
+  }
+  .cd-modal .modal-close::before, .cd-modal .modal-close::after {
+    height: 2px;
+    width: 26px;
+    top: calc(50% - 1px);
+    left: calc(50% - 13px);
+  }
+  .cd-modal p {
+    font-size: 2rem;
+  }
+    .heading {
+        margin-top: 0;
+        padding-top: 1%
     }
 }
 
@@ -169,6 +191,7 @@ a {
 .cd-modal .modal-content {
   height: 100%;
   overflow-y: auto;
+  margin: 2%;
 }
 .cd-modal h1, .cd-modal h2 {
   text-align: center;
@@ -188,8 +211,6 @@ a {
   width: 45px;
   border-radius: 50%;
   overflow: hidden;
-  white-space: nowrap;
-  text-indent: 100%;
   color: transparent;
   visibility: hidden;
   opacity: 0;
