@@ -27,6 +27,7 @@ Shared style
 .cd-btn {
   display: inline-block;
   padding: 1.6em 2.4em;
+  margin: 1%;
   font-size: 1.4rem;
   letter-spacing: .15em;
   font-weight: 700;
@@ -105,13 +106,13 @@ a {
     padding-top: 3%;
 }
 
-#me {
+#me, #ksu {
     width: 35%;
 }
 
 #computer {
     padding-top: 3%;
-    width: 45%;
+    width: 50%;
 }
 
 /*Mobile*/
@@ -124,11 +125,11 @@ a {
         width: 75%;
     }
     #computer{
-        width: 75%;
+        width: 90%;
         padding-bottom: 3%;
     }
-    #kent_state_picture{
-        width: 75%;
+    #ksu{
+      width: 75%;
     }
 }
 
@@ -137,7 +138,6 @@ a {
 @media only screen and (min-width: 1100px) {
   .cd-modal .modal-content {
     padding: 6em 5%;
-    
   }
   .cd-modal .modal-close {
     height: 60px;
@@ -191,6 +191,7 @@ a {
 .cd-modal .modal-content {
   height: 100%;
   width: 100%;
+  margin: 1%;
   overflow-y: auto;
 }
 .cd-modal h1, .cd-modal h2 {
