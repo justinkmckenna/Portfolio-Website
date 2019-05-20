@@ -1,14 +1,10 @@
-/* -------------------------------- 
-Primary style
--------------------------------- */
+/*Primary style*/
 *, *::after, *::before {
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
 }
-
 body {
   font-size: 1.6rem;
   font-family: sans-serif;
@@ -16,14 +12,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
-Shared style
--------------------------------- */
+/*Shared style*/
 .cd-btn {
   display: inline-block;
   padding: 1.6em 2.4em;
@@ -39,54 +32,44 @@ Shared style
 .cd-btn:hover {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
-
 .cd-btn:active {
     transform: translateY(5%);
 }
-
 h1 {
   line-height: 1;
 }
-
 h3 {
     padding-top: 3%;
 }
-
 h4 {
     font-size: 150%;
     text-align: center;
     padding-top: 3%;
 }
-
 p {
     font-family: sans-serif;
     line-height: 2;
 }
-
 a {
     text-align: center;
 }
 
-/*classes*/
-
+/*Classes*/
 .heading {
     text-align: center;
     font-size: 200%
 }
 
 /*IDs*/
-
 #header {
     height: 100%;
 }
-
 #my_name {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 #welcome {
     position: absolute;
     top: 65%;
@@ -96,45 +79,49 @@ a {
     border: 5px ridge white;
     -webkit-transition: all 0.5s ease;
 }
-
 #welcome:hover {
     background: #fff;
 }
-
 #content {
     padding-left: 1%;
     padding-top: 3%;
 }
-
-#me, #ksu {
-    width: 35%;
+#me {
+    width: 20%;
 }
-
+#ksu {
+    width: 25%;
+}
 #computer {
     padding-top: 3%;
     width: 50%;
 }
 
 /*Mobile*/
-
 @media only screen and (min-width:240px) and (max-width: 720px), screen and (-webkit-min-device-pixel-ratio : 1.5 ) and (max-device-width:800px) {
-    h4{
-        margin-top: 7%;
-    }
-    #me{
-        width: 75%;
-    }
-    #computer{
-        width: 90%;
-        padding-bottom: 3%;
-    }
-    #ksu{
-      width: 75%;
-    }
+  h4{
+      margin-top: 7%;
+  }
+  p{
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+  iframe{
+      max-width: 95%;
+  }
+  #me{
+      width: 85%;
+  }
+  #computer{
+      width: 90%;
+      padding-bottom: 3%;
+  }
+  #ksu{
+    width: 85%;
+  }
 }
 
 /*Desktop*/
-
 @media only screen and (min-width: 1100px) {
   .cd-modal .modal-content {
     padding: 6em 5%;
@@ -164,11 +151,9 @@ a {
   z-index: 1;
   width: 100%;
   height: 100vh;
-  /* vertically align its content */
   display: table;
 }
 .cd-main-content .center {
-  /* vertically align inside parent element */
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -191,7 +176,6 @@ a {
 .cd-modal .modal-content {
   height: 100%;
   width: 100%;
-  margin: 1%;
   overflow-y: auto;
 }
 .cd-modal h1, .cd-modal h2 {
@@ -246,7 +230,6 @@ a {
   transition: opacity .7s, visibility 0s;
 }
 .cd-modal.visible .modal-content {
-  /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
   -webkit-overflow-scrolling: touch;
 }
 .cd-modal.visible .modal-close {
@@ -278,7 +261,6 @@ a {
   top: 50%;
   -webkit-transform: translateY(-50%) translateX(-2%);
           transform: translateY(-50%) translateX(-2%);
-  /* its dimentions will be overwritten using jQuery to proportionally fit the viewport */
   height: 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -302,9 +284,7 @@ a {
   display: none;
 }
 
-/* -------------------------------- 
-Glitch Effect
--------------------------------- */
+/*Glitch Effect*/
 .glitch-transition {
   font-family: "Work Sans", sans-serif;
   color: #ffffff;
@@ -359,9 +339,7 @@ Glitch Effect
     font-size: 6rem;
   }
 }
-/* -------------------------------- 
-Animations
--------------------------------- */
+/*Animations*/
 @-webkit-keyframes cd-sequence {
   0% {
     /* translateX(-2%) is used to horizontally center the first frame inside the viewport */
