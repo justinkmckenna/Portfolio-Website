@@ -87,6 +87,7 @@ a {
     padding-top: 3%;
 }
 #me {
+    padding-top: 1%;
     width: 20%;
 }
 #ksu {
@@ -110,6 +111,7 @@ a {
       max-width: 95%;
   }
   #me{
+    padding-top: 2%;
       width: 85%;
   }
   #computer{
