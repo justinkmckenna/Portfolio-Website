@@ -12,12 +12,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a {
-  text-decoration: none;
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /*Shared style*/
 .cd-btn {
+  border-radius: 5px;
   display: inline-block;
   padding: 1.6em 2.4em;
   margin: 1%;
@@ -35,6 +39,9 @@ a {
 .cd-btn:active {
     transform: translateY(5%);
 }
+.btn-large {
+  border-radius: 5px;
+}
 h1 {
   line-height: 1;
 }
@@ -50,14 +57,17 @@ p {
     font-family: sans-serif;
     line-height: 2;
 }
-a {
-    text-align: center;
-}
 
 /*Classes*/
 .heading {
     text-align: center;
     font-size: 200%
+}
+.about-me-desc {
+  margin: auto;
+}
+.source-demo-btn {
+  text-align: center;
 }
 
 /*IDs*/
@@ -91,7 +101,7 @@ a {
     width: 20%;
 }
 #ksu {
-    width: 25%;
+    width: 40%;
 }
 #computer {
     padding-top: 3%;
@@ -121,6 +131,9 @@ a {
   #ksu{
     width: 85%;
   }
+  .center {
+    padding-top: 10%;
+  }
 }
 
 /*Desktop*/
@@ -139,7 +152,7 @@ a {
     left: calc(50% - 13px);
   }
   .cd-modal p {
-    font-size: 2rem;
+    font-size: 150%;
   }
     .heading {
         margin-top: 0;
